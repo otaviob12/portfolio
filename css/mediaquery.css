@@ -1,0 +1,49 @@
+@media screen and (max-width: 600px) {
+    .text > h1{
+        font-size: 2em;
+    }
+    .text > p{
+        width: 90%;
+    }
+    section.sobre{
+        margin-left: -120px;
+    }
+    .foto{
+        display: none;
+    } 
+    .container-hab{
+        margin-left: 70px;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .add{
+        height: 150px;
+        margin: 10px;
+    }
+    .add h1{
+        font-size: 12px;
+    }
+    .android{
+        width: 90%;
+    }
+    .habitos{
+        width: 90%;
+    }
+    .login{
+        width: 90%;
+    }
+    .jdv{
+        width: 60%;
+    }
+    .calc{
+        width: 60%;
+    }
+    .ldf{
+        width: 90%;
+    }
+    .add1 p{
+        width: 300px;
+    }
+}

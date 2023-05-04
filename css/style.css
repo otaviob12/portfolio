@@ -1,0 +1,206 @@
+@charset "UFT-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    max-height: 100vh;
+}
+html, body{
+    font-family: 'Darumadrop One', cursive;
+    min-height: 100vh;
+    background-color: rgb(34, 34, 34);
+}
+header{
+    background-color: rgb(44, 44, 44);
+    border-bottom: 1px solid rgb(99, 99, 99);
+    top: 0px;
+    left: 0px;
+    padding: 30px 0px;
+    height: 90px;
+}
+.navbar{
+    margin: auto;
+    width: 300px;
+}
+.navbar h1{
+    color: white;
+    font-family: 'Darumadrop One', cursive;
+}
+.navbar p{
+    color: yellow;
+    text-align: right;
+    width: 235px;
+    font-family: 'Darumadrop One', cursive;
+}
+.container-navigation{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.navigation{
+    display: block;
+    font-size: 14px;
+}
+.navigation ul{
+    display: flex;
+}
+.navigation li{
+    list-style: none;
+    margin: 0px 10px;
+    
+}
+.navigation li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.navigation li:hover a{
+    color: yellow;
+} 
+section{
+    line-height: 2em;
+}
+.text > h1{
+    font-size: 2em;
+    font-family: 'Darumadrop One', cursive;
+    color: white;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.text > p{
+    width: 70%;
+    font-size: 19px;
+    color: white;
+}
+section.sobre{
+    margin: auto;
+    display: flex;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+.foto{
+    width: 20%;
+    border-radius: 50%;
+    margin: auto;
+    margin-right: 40px;
+} 
+section.habilidades{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+}
+.habilidades h1{
+    font-family: 'Darumadrop One', cursive;
+    padding-top: 20px;
+    color: white;
+}
+.container-hab{
+    width: 30%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin: auto;
+}
+.logo{
+    border-radius: 10px;
+    width: 85px;
+    height: 85px;
+    padding-top: 20px;
+    margin: auto;
+}
+.logo1{
+    width: 80px;
+    height: 80px;
+}
+section.projeto{
+    font-family: 'Darumadrop One', cursive;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+.container{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.container h1{
+    font-family: 'Darumadrop One', cursive;
+    text-align: center;
+}
+.container p{
+    width: 350px;
+    margin: auto;
+}
+.add{
+    background-color: rgb(44, 44, 44);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.253);
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    padding-top: 20px;
+    margin: auto;
+}
+.add h1{
+    padding-bottom: 15px;
+}
+.add:hover{
+    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.171);
+    transition: 500ms linear;
+    transform: scale(1.01);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.android{
+    width: 80%;
+}
+.habitos{
+    width: 80%;
+}
+.login{
+    width: 90%;
+}
+.jdv{
+    width: 40%;
+}
+.calc{
+    width: 30%;
+}
+.ldf{
+    width: 70%;
+}
+.san{
+    padding-top: 10px;
+    width: 80%;
+}
+.add1{
+    background-color: rgb(44, 44, 44);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.253);
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    padding-top: 20px;
+    margin: auto;
+    z-index: 1000;
+}
+.add1:hover{
+    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.171);
+    transition: 500ms linear;
+    transform: scale(1.01);
+}
+footer{
+    background-color: rgb(44, 44, 44);
+    border-top: 1px solid rgb(99, 99, 99);
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+footer a{
+    color: yellow;
+}
