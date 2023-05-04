@@ -6,7 +6,7 @@
     max-height: 100vh;
 }
 html, body{
-    font-family: 'Darumadrop One', cursive;
+    font-family: 'Darumadrop One', Arial, Helvetica, sans-serif;
     min-height: 100vh;
     background-color: rgb(34, 34, 34);
 }
