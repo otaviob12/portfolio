@@ -6,7 +6,7 @@
     max-height: 100vh;
 }
 html, body{
-    font-family: 'Darumadrop One', cursive;
+    font-family: 'Raleway', sans-serif;
     min-height: 100vh;
     background-color: rgb(34, 34, 34);
 }
@@ -24,13 +24,14 @@ header{
 }
 .navbar h1{
     color: white;
-    font-family: 'Darumadrop One', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 .navbar p{
     color: yellow;
     text-align: right;
     width: 235px;
-    font-family: 'Darumadrop One', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 .container-navigation{
     display: flex;
@@ -64,7 +65,7 @@ section{
 }
 .text > h1{
     font-size: 2em;
-    font-family: 'Darumadrop One', cursive;
+    font-family: 'Raleway', sans-serif;
     color: white;
     padding-bottom: 10px;
     margin-top: 10px;
@@ -93,7 +94,7 @@ section.habilidades{
     background-color: rgb(44, 44, 44);
 }
 .habilidades h1{
-    font-family: 'Darumadrop One', cursive;
+    font-family: 'Raleway', sans-serif;
     padding-top: 20px;
     color: white;
 }
@@ -116,7 +117,7 @@ section.habilidades{
     height: 80px;
 }
 section.projeto{
-    font-family: 'Darumadrop One', cursive;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     color: white;
     padding-top: 30px;
@@ -127,7 +128,7 @@ section.projeto{
     align-items: center;
 }
 .container h1{
-    font-family: 'Darumadrop One', cursive;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
 }
 .container p{
@@ -203,4 +204,5 @@ footer{
 }
 footer a{
     color: yellow;
+    font-weight: bold;
 }
