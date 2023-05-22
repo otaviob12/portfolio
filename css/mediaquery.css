@@ -14,36 +14,43 @@
     .container-hab{
         margin-left: 70px;
     }
-    .container{
-        width: 90%;
-        margin: auto;
+    .slide img{
+        width: 800px;
     }
-    .add{
-        height: 150px;
-        margin: 10px;
+    .slider{
+        margin: 0 auto;
+        width: 800px;
+        height: 200px;
+        overflow: hidden;
     }
-    .add h1{
-        font-size: 12px;
+    .slides{
+        width: 200%;
+        height: 400px;
+        display: flex;
     }
-    .android{
-        width: 90%;
+    .slide{
+        width: 25%;
+        position: relative;
+        transition: 2s;
     }
-    .habitos{
-        width: 90%;
+    .slide img{
+        width: 400px;
     }
-    .login{
-        width: 90%;
+    .manual-btn{
+        display: none;
     }
-    .jdv{
-        width: 60%;
+    .navigation-auto div{
+        display: none;
     }
     .calc{
-        width: 60%;
+        height: 200px;
     }
-    .ldf{
-        width: 90%;
-    }
-    .add1 p{
-        width: 300px;
+    footer{
+        margin-top: 100px;
+        height: 110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

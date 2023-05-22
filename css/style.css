@@ -122,87 +122,120 @@ section.projeto{
     color: white;
     padding-top: 30px;
 }
-.container{
-    display: flex;
-    padding: 10px;
-    align-items: center;
-}
-.container h1{
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-}
-.container p{
-    width: 350px;
-    margin: auto;
-}
-.add{
-    background-color: rgb(44, 44, 44);
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.253);
-    border-radius: 10px;
-    width: 400px;
-    height: 250px;
-    padding-top: 20px;
-    margin: auto;
-}
-.add h1{
-    padding-bottom: 15px;
-}
-.add:hover{
-    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.171);
-    transition: 500ms linear;
-    transform: scale(1.01);
-}
-a{
-    text-decoration: none;
-    color: white;
-}
-.android{
-    width: 80%;
-}
-.habitos{
-    width: 80%;
-}
-.login{
-    width: 90%;
-}
-.jdv{
-    width: 40%;
-}
-.calc{
-    width: 30%;
-}
-.ldf{
-    width: 70%;
-}
-.san{
-    padding-top: 10px;
-    width: 80%;
-}
-.add1{
-    background-color: rgb(44, 44, 44);
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.253);
-    border-radius: 10px;
-    width: 400px;
-    height: 300px;
-    padding-top: 20px;
-    margin: auto;
-    z-index: 1000;
-}
-.add1:hover{
-    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.171);
-    transition: 500ms linear;
-    transform: scale(1.01);
-}
 footer{
     background-color: rgb(44, 44, 44);
     border-top: 1px solid rgb(99, 99, 99);
-    margin-top: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 70px;
     color: white;
     text-align: center;
+    height: 60px;
 }
 footer a{
     color: yellow;
     font-weight: bold;
+}
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+.slide img{
+    width: 800px;
+}
+.calc{
+    height: 400px;
+}
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid yellow;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 10px;
+}
+.manual-btn:hover{
+    background-color: yellow;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+#radio5:checked ~ .first{
+    margin-left: -100%;
+}
+#radio6:checked ~ .first{
+    margin-left: -125%;
+}
+#radio7:checked ~ .first{
+    margin-left: -150%;
+}
+.navigation-auto div{
+    border: 2px solid yellow;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 10px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: yellow;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: yellow;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: yellow;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: yellow;
+}
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: yellow;
+}
+#radio6:checked ~ .navigation-auto .auto-btn6{
+    background-color: yellow;
+}
+#radio7:checked ~ .navigation-auto .auto-btn6{
+    background-color: yellow;
 }
