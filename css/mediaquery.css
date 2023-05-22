@@ -36,17 +36,17 @@
     .calc{
         height: 200px;
     }
-    .manual-navigation{
-        display: none;
-    }
-    .manual-btn{
-        display: none;
-    }
-    .navigation-auto div{
-        display: none;
-    }
     .navigation-auto{
-        display: none;
+        position: absolute;
+        width: 390px;
+        margin-top: 220px;
+        display: flex;
+    }
+    .manual-navigation{
+        position: absolute;
+        width: 390px;
+        margin-top: -170px;
+        display: flex;
     }
     footer{
         margin-top: 100px;
