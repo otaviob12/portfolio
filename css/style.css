@@ -213,12 +213,6 @@ footer a{
 #radio5:checked ~ .first{
     margin-left: -100%;
 }
-#radio6:checked ~ .first{
-    margin-left: -125%;
-}
-#radio7:checked ~ .first{
-    margin-left: -150%;
-}
 .navigation-auto div{
     border: 2px solid yellow;
     padding: 5px;
@@ -250,11 +244,5 @@ footer a{
     background-color: yellow;
 }
 #radio5:checked ~ .navigation-auto .auto-btn5{
-    background-color: yellow;
-}
-#radio6:checked ~ .navigation-auto .auto-btn6{
-    background-color: yellow;
-}
-#radio7:checked ~ .navigation-auto .auto-btn6{
     background-color: yellow;
 }

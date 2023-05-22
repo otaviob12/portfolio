@@ -1,14 +1,15 @@
-let count = 1
-document.getElementById('radio1').checked = true
+let count = 1;
+let interval;
+document.getElementById('radio1').checked = true;
 
 setInterval(function(){
     nextImagem()
-},5000)
+},10000);
 
 function nextImagem(){
     count++
-    if(count > 7){
+    if(count > 5){
         count = 1
     }
     document.getElementById('radio' + count).checked = true
-}
+};
